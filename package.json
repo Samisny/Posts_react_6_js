@@ -1,0 +1,22 @@
+{
+  "homepage": "https://samisny.github.io/ToDoList_Proj_react_1_js/",
+  "name": "react-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "npx babel src/index.js --out-file=public/js/main.js --presets=env,react --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}

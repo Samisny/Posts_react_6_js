@@ -1,0 +1,24 @@
+
+This is 'To Do List' Project in react
+
+
+CDN react JS links:
+<script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>  <!--CDN react-->
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script> <!--CDN react-->
+
+commands to install Babeljs:
+
+   1 - To create package.json file in your project:
+        npm init -y
+    
+   2 - To install babeljs globally in your PC:
+        npm install -g babel-cli
+    
+   3 - To install preset-react and preset-env in your local project:
+        npm install babel-preset-react babel-preset-env
+
+   4 - To run babel :
+        npx babel src/index.js --out-file=public/js/main.js --presets=env, react --watch
+
+   5 - to run babel via package.json after adding the script into it:
+        npm start
